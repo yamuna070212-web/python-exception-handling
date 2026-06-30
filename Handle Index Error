@@ -1,0 +1,9 @@
+try:
+    numbers = [10, 20, 30]
+
+    print(numbers[5])
+
+except IndexError:
+    print("Invalid index.")
+Output
+Invalid index.
