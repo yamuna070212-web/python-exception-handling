@@ -1,0 +1,8 @@
+try:
+
+    print(10 + "20")
+
+except TypeError:
+    print("Cannot add integer and string.")
+Output
+Cannot add integer and string.
