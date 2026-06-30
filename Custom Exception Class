@@ -1,0 +1,17 @@
+class NegativeNumberError(Exception):
+    pass
+
+try:
+
+    num = int(input("Enter a number: "))
+
+    if num < 0:
+        raise NegativeNumberError("Negative number entered.")
+
+    print(num)
+
+except NegativeNumberError as e:
+    print(e)
+Output
+Enter a number: -9
+Negative number entered.
