@@ -1,0 +1,9 @@
+try:
+    student = {"Name": "Ram", "Age": 20}
+
+    print(student["Marks"])
+
+except KeyError:
+    print("Key does not exist.")
+Output
+Key does not exist.
