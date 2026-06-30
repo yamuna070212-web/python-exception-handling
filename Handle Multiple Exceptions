@@ -1,0 +1,15 @@
+try:
+    a = int(input("Enter number: "))
+    b = int(input("Enter divisor: "))
+
+    print(a / b)
+
+except ValueError:
+    print("Enter only integers.")
+
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+Output
+Enter number: 15
+Enter divisor: 0
+Division by zero is not allowed.
