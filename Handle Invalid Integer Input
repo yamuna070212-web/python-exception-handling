@@ -1,0 +1,9 @@
+try:
+    num = int(input("Enter an integer: "))
+    print("You entered:", num)
+
+except ValueError:
+    print("Invalid integer.")
+Output
+Enter an integer: abc
+Invalid integer.
