@@ -1,0 +1,14 @@
+try:
+
+    marks = int(input("Enter Marks: "))
+
+    if marks < 0 or marks > 100:
+        raise ValueError("Marks should be between 0 and 100")
+
+    print("Marks Accepted")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Marks: 120
+Marks should be between 0 and 100
