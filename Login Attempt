@@ -1,0 +1,14 @@
+try:
+
+    password = input("Enter Password: ")
+
+    if password != "python123":
+        raise ValueError("Wrong Password")
+
+    print("Login Successful")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Password: java
+Wrong Password
