@@ -1,0 +1,12 @@
+try:
+
+    try:
+        print(10 / 0)
+
+    except ZeroDivisionError:
+        print("Inner Exception")
+
+except:
+    print("Outer Exception")
+Output
+Inner Exception
