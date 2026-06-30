@@ -1,0 +1,10 @@
+try:
+
+    f1 = open("file1.txt")
+
+    f2 = open("file2.txt")
+
+except FileNotFoundError:
+    print("One or more files are missing.")
+Output
+One or more files are missing.
