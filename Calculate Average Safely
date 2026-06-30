@@ -1,0 +1,12 @@
+try:
+
+    numbers = []
+
+    avg = sum(numbers) / len(numbers)
+
+    print(avg)
+
+except ZeroDivisionError:
+    print("List is empty.")
+Output
+List is empty.
