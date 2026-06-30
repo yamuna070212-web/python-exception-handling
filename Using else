@@ -1,0 +1,11 @@
+try:
+    num = int(input("Enter number: "))
+
+except ValueError:
+    print("Invalid Input")
+
+else:
+    print("Square =", num * num)
+Output
+Enter number: 8
+Square = 64
