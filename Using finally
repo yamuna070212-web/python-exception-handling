@@ -1,0 +1,11 @@
+try:
+    print(100 / 5)
+
+except ZeroDivisionError:
+    print("Error")
+
+finally:
+    print("Program Finished")
+Output
+20.0
+Program Finished
