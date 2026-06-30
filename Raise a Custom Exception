@@ -1,0 +1,14 @@
+age = int(input("Enter age: "))
+
+try:
+
+    if age < 18:
+        raise Exception("Not Eligible")
+
+    print("Eligible")
+
+except Exception as e:
+    print(e)
+Output
+Enter age: 15
+Not Eligible
