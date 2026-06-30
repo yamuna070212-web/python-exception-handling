@@ -1,0 +1,8 @@
+try:
+
+    print(value)
+
+except NameError:
+    print("Variable not defined.")
+Output
+Variable not defined.
