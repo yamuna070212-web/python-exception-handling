@@ -1,0 +1,21 @@
+try:
+    marks = []
+
+    for i in range(5):
+
+        m = int(input(f"Subject {i+1}: "))
+
+        if m < 0 or m > 100:
+            raise ValueError("Marks must be between 0 and 100")
+
+        marks.append(m)
+
+    print("Average =", sum(marks) / 5)
+
+except ValueError as e:
+    print(e)
+Output
+Subject 1: 95
+Subject 2: 80
+Subject 3: 120
+Marks must be between 0 and 100
