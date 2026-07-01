@@ -1,0 +1,13 @@
+try:
+    email = input("Enter Email: ")
+
+    if "@" not in email:
+        raise ValueError("Invalid Email")
+
+    print("Valid Email")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Email: ramgmail.com
+Invalid Email
