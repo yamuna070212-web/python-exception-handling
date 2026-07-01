@@ -1,0 +1,17 @@
+student = {"Ram": 90}
+
+try:
+    key = input("Enter Key: ")
+
+    if key not in student:
+        raise KeyError("Key Not Found")
+
+    student[key] = 100
+
+    print(student)
+
+except KeyError as e:
+    print(e)
+Output
+Enter Key: Ravi
+'Key Not Found'
