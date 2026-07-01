@@ -1,0 +1,10 @@
+try:
+    number = float(input("Enter Number: "))
+
+    print(number)
+
+except ValueError:
+    print("Invalid Float Value")
+Output
+Enter Number: abc
+Invalid Float Value
