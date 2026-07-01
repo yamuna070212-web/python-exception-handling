@@ -1,0 +1,12 @@
+try:
+    numbers = []
+
+    if not numbers:
+        raise Exception("List is Empty")
+
+    print(max(numbers))
+
+except Exception as e:
+    print(e)
+Output
+List is Empty
