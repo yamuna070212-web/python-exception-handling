@@ -1,0 +1,13 @@
+try:
+    num = int(input("Enter Number: "))
+
+    if num % 2 != 0:
+        raise Exception("Number is not even")
+
+    print("Even Number")
+
+except Exception as e:
+    print(e)
+Output
+Enter Number: 9
+Number is not even
