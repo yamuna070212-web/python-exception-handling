@@ -1,0 +1,12 @@
+numbers = [10, 20, 30, 40]
+
+try:
+    index = int(input("Enter Index: "))
+
+    print(numbers[index])
+
+except IndexError:
+    print("Index Out of Range")
+Output
+Enter Index: 8
+Index Out of Range
