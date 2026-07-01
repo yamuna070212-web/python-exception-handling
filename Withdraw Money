@@ -1,0 +1,20 @@
+balance = 10000
+
+try:
+    amount = int(input("Enter Amount: "))
+
+    if amount <= 0:
+        raise ValueError("Amount should be positive.")
+
+    if amount > balance:
+        raise Exception("Insufficient Balance")
+
+    balance -= amount
+
+    print("Balance =", balance)
+
+except Exception as e:
+    print(e)
+Output
+Enter Amount: 15000
+Insufficient Balance
