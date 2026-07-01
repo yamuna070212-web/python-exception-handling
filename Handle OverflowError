@@ -1,0 +1,9 @@
+import math
+
+try:
+    print(math.exp(1000))
+
+except OverflowError:
+    print("Number too large.")
+Output
+Number too large.
