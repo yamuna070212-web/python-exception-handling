@@ -1,0 +1,9 @@
+try:
+    name = input("Enter Name: ")
+
+    print(name)
+
+except EOFError:
+    print("No Input Received")
+Output
+No Input Received
