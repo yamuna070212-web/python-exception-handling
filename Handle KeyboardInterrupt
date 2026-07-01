@@ -1,0 +1,10 @@
+try:
+    while True:
+        print("Press Ctrl+C to stop")
+
+except KeyboardInterrupt:
+    print("\nProgram Interrupted")
+Output
+Press Ctrl+C to stop
+Press Ctrl+C to stop
+Program Interrupted
