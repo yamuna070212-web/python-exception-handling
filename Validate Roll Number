@@ -1,0 +1,13 @@
+try:
+    roll = int(input("Enter Roll Number: "))
+
+    if roll <= 0:
+        raise ValueError("Invalid Roll Number")
+
+    print("Roll Number Accepted")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Roll Number: -10
+Invalid Roll Number
