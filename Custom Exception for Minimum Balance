@@ -1,0 +1,19 @@
+class MinimumBalanceError(Exception):
+    pass
+
+balance = 1000
+
+try:
+    amount = int(input("Enter Withdrawal Amount: "))
+
+    if balance - amount < 500:
+        raise MinimumBalanceError("Minimum balance should be ₹500.")
+
+    balance -= amount
+    print("Remaining Balance =", balance)
+
+except MinimumBalanceError as e:
+    print(e)
+Output
+Enter Withdrawal Amount: 700
+Minimum balance should be ₹500.
