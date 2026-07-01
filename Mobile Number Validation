@@ -1,0 +1,13 @@
+try:
+    mobile = input("Enter Mobile Number: ")
+
+    if len(mobile) != 10 or not mobile.isdigit():
+        raise ValueError("Invalid Mobile Number")
+
+    print("Valid Number")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Mobile Number: 98765
+Invalid Mobile Number
