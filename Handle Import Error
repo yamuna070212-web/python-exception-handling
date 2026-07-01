@@ -1,0 +1,7 @@
+try:
+    import xyzmodule
+
+except ImportError:
+    print("Module Not Found")
+Output
+Module Not Found
