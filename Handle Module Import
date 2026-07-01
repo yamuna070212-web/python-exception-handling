@@ -1,0 +1,9 @@
+try:
+    import random
+
+    print("Module Imported Successfully")
+
+except ImportError:
+    print("Module Missing")
+Output
+Module Imported Successfully
