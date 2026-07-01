@@ -1,0 +1,13 @@
+try:
+    percentage = float(input("Enter Percentage: "))
+
+    if percentage < 0 or percentage > 100:
+        raise Exception("Invalid Percentage")
+
+    print("Accepted")
+
+except Exception as e:
+    print(e)
+Output
+Enter Percentage: 110
+Invalid Percentage
