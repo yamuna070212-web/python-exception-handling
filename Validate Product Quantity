@@ -1,0 +1,13 @@
+try:
+    quantity = int(input("Enter Quantity: "))
+
+    if quantity <= 0:
+        raise ValueError("Quantity Must Be Positive")
+
+    print(quantity)
+
+except ValueError as e:
+    print(e)
+Output
+Enter Quantity: -8
+Quantity Must Be Positive
