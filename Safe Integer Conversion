@@ -1,0 +1,12 @@
+try:
+    value = input("Enter Value: ")
+
+    number = int(value)
+
+    print(number)
+
+except ValueError:
+    print("Conversion Failed")
+Output
+Enter Value: Hello
+Conversion Failed
