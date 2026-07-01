@@ -1,0 +1,13 @@
+try:
+    filename = input("Enter File Name: ")
+
+    if not filename.endswith(".txt"):
+        raise ValueError("Only .txt files allowed")
+
+    print("Valid File")
+
+except ValueError as e:
+    print(e)
+Output
+Enter File Name: image.jpg
+Only .txt files allowed
