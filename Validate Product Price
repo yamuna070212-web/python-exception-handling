@@ -1,0 +1,13 @@
+try:
+    price = float(input("Enter Price: "))
+
+    if price <= 0:
+        raise ValueError("Price must be greater than zero.")
+
+    print("Price Accepted")
+
+except ValueError as e:
+    print(e)
+Output
+Enter Price: -50
+Price must be greater than zero.
