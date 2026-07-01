@@ -1,0 +1,14 @@
+try:
+    value = int(input("Enter Number: "))
+
+    print(100 / value)
+
+except Exception as e:
+    print("Exception:", e)
+
+finally:
+    print("Program Completed")
+Output
+Enter Number: 0
+Exception: division by zero
+Program Completed
