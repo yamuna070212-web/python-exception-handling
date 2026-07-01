@@ -1,0 +1,13 @@
+try:
+    pin = input("Enter 4-digit PIN: ")
+
+    if len(pin) != 4 or not pin.isdigit():
+        raise ValueError("Invalid PIN")
+
+    print("PIN Accepted")
+
+except ValueError as e:
+    print(e)
+Output
+Enter 4-digit PIN: 123
+Invalid PIN
