@@ -1,0 +1,12 @@
+numbers = [10, 20, 0, 40]
+
+try:
+    for num in numbers:
+        print(100 / num)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+Output
+10.0
+5.0
+Cannot divide by zero.
