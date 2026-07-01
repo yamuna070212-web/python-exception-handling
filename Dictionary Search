@@ -1,0 +1,15 @@
+student = {
+    "Ram": 85,
+    "Asha": 90
+}
+
+try:
+    name = input("Enter Name: ")
+
+    print(student[name])
+
+except KeyError:
+    print("Student Not Found")
+Output
+Enter Name: Ravi
+Student Not Found
