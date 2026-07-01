@@ -1,0 +1,9 @@
+try:
+    number = 100
+
+    number.append(5)
+
+except AttributeError:
+    print("Attribute does not exist.")
+Output
+Attribute does not exist.
