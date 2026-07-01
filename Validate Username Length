@@ -1,0 +1,13 @@
+try:
+    username = input("Username: ")
+
+    if len(username) < 6:
+        raise ValueError("Username must have at least 6 characters")
+
+    print("Accepted")
+
+except ValueError as e:
+    print(e)
+Output
+Username: ram
+Username must have at least 6 characters
