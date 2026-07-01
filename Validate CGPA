@@ -1,0 +1,13 @@
+try:
+    cgpa = float(input("Enter CGPA: "))
+
+    if cgpa < 0 or cgpa > 10:
+        raise Exception("Invalid CGPA")
+
+    print("CGPA =", cgpa)
+
+except Exception as e:
+    print(e)
+Output
+Enter CGPA: 12
+Invalid CGPA
