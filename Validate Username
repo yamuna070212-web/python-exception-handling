@@ -1,0 +1,13 @@
+try:
+    username = input("Enter Username: ")
+
+    if len(username) < 5:
+        raise Exception("Username Too Short")
+
+    print("Accepted")
+
+except Exception as e:
+    print(e)
+Output
+Enter Username: ram
+Username Too Short
