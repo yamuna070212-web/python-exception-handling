@@ -1,0 +1,13 @@
+try:
+    salary = int(input("Enter Salary: "))
+
+    if salary < 0:
+        raise ValueError("Salary Cannot be Negative")
+
+    print(salary)
+
+except ValueError as e:
+    print(e)
+Output
+Enter Salary: -5000
+Salary Cannot be Negative
